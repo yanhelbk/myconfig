@@ -1,0 +1,37 @@
+" general configure:
+" ================== 
+" use 4 spaces for tab
+set expandtab
+set tabstop=4 
+set shiftwidth=4
+" auto indent
+set autoindent 
+" show line number
+set relativenumber
+" set number
+" color scheme:
+syntax on
+colorscheme molokai
+
+
+" pathogen configure:
+" ===================
+execute pathogen#infect()
+
+
+" easymotion configure:
+" =====================
+" Disable default mappings
+let g:EasyMotion_do_mapping = 0
+" search by one char motion
+nmap <Leader>s <Plug>(easymotion-s)
+
+
+" nerdtree configure:
+" ===================
+noremap <Leader>n :NERDTreeToggle<CR> 
+
+" youcompelteme:
+" ==============
+let g:ycm_confirm_extra_conf = 0
+noremap <Leader>g :YcmCompleter GoTo<CR>
