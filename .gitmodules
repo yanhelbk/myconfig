@@ -10,3 +10,4 @@
 [submodule "vimconfig/bundle/YouCompleteMe"]
 	path = vimconfig/bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
+    ignore = dirty 
