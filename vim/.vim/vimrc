@@ -29,9 +29,9 @@ nmap <Leader>s <Plug>(easymotion-s)
 
 " nerdtree configure:
 " ===================
-noremap <Leader>n :NERDTreeToggle<CR> 
+nnoremap <Leader>n :NERDTreeToggle<CR> 
 
 " youcompelteme:
 " ==============
 let g:ycm_confirm_extra_conf = 0
-noremap <Leader>g :YcmCompleter GoTo<CR>
+nnoremap <Leader>g :YcmCompleter GoTo<CR>
