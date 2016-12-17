@@ -1,13 +1,13 @@
 [submodule "vimconfig/bundle/nerdtree"]
-	path = vimconfig/bundle/nerdtree
+	path = vim/.vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
 [submodule "vimconfig/bundle/vim-easymotion"]
-	path = vimconfig/bundle/vim-easymotion
+	path = vim/.vim/bundle/vim-easymotion
 	url = https://github.com/easymotion/vim-easymotion.git
 [submodule "vimconfig/bundle/ctrlp.vim"]
-	path = vimconfig/bundle/ctrlp.vim
+	path = vim/.vim/bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
 [submodule "vimconfig/bundle/YouCompleteMe"]
-	path = vimconfig/bundle/YouCompleteMe
+	path = vim/.vim/bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
     ignore = dirty 
