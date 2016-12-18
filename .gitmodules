@@ -11,3 +11,6 @@
 	path = vim/.vim/bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
     ignore = dirty 
+[submodule "vim/.vim/bundle/winresizer"]
+	path = vim/.vim/bundle/winresizer
+	url = https://github.com/simeji/winresizer
