@@ -1,3 +1,5 @@
 PS1='\W\$ '
-TERM='xterm-256color'
+if [ $TERM = "xterm" ]; then
+    TERM='xterm-256color'
+fi
 set -o vi
