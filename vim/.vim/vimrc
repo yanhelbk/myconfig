@@ -12,6 +12,8 @@ set relativenumber
 " color scheme:
 syntax on
 colorscheme molokai
+" encoding
+set fileencodings=utf-8,gbk
 
 
 " pathogen configure:
