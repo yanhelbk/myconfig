@@ -6,5 +6,3 @@ if [ $TERM = "screen" ]; then
     TERM='screen-256color'
 fi
 set -o vi
-
-alias tmux='TERM=screen-256color tmux'
